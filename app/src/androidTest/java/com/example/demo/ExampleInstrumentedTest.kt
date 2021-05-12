@@ -25,8 +25,7 @@ class ExampleInstrumentedTest {
     val rule = activityScenarioRule<MainActivity>()
 
     private lateinit var device: UiDevice
-
-
+    
     @Test
     fun broadcastBeforeTest() {
         Espresso.onView(ViewMatchers.withId(R.id.text))
